@@ -3,7 +3,7 @@ import sys
 import math
 
 
-file=open("input_hw_2[523].csv","r+",encoding="utf-8")
+file=open("input_dir_name/input_hw_2[523].csv","r+",encoding="utf-8")
 list=file.read()
 #print(list)
 
@@ -60,7 +60,7 @@ def getMedian(monthlist):
 medyan=getMedian(monthlist)
 print("Medyan: ",medyan)
 
-with open("170401032_hw_output.txt","w",encoding="(utf-8") as dosya:
+with open("output_dir_name/170401032_hw_output.txt","w",encoding="(utf-8") as dosya:
     dosya.write("Medyan"+str(medyan)+"\n")
     dosya.write("Ortalama"+str(y))
 
